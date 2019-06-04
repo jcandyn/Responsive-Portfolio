@@ -1,0 +1,11 @@
+img:hover {
+    opacity: 0.60;
+background-color: #4aaaa5}
+
+
+img:hover {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;}
+
+    img:hover:after {
+        opacity:1;}
