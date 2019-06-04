@@ -114,7 +114,7 @@ hr {
 
 
 body {
-    background-image: url("../../assets/images/crossline-lines.png");
+    background-image: url("../../assets/images/palm-leaf.png");
     color: #777777;
    
 }
@@ -157,36 +157,37 @@ h2 {
 
 
 
-.softball {
+.sports {
     display: inline-block;
     position: absolute;
 
     background-color: white;
-    width: 200px;
+    width: 250px;
     height: 200px;
     text-align: center;
 }
 
-
+/* softbal is really sports */
 #softball {
     position: relative;
     top: -80px;
     line-height: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    width: 250px;
 }
 
 
-.cooking {
+.research {
     display: inline-block;
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 200px;
     text-align: center;
     bottom: 50px;
 }
 
-#cooking {
+#research {
     position: relative;
     top: -80px;
     line-height: 40px;
@@ -194,9 +195,10 @@ h2 {
     font-size: 20px;
     color: white;
     background-color: #4aaaa5;
+    width: 250px;
 }
 
-#talking{
+#cooking{
     position: relative;
     top: -80px;
     line-height: 40px;
@@ -204,25 +206,27 @@ h2 {
     font-size: 20px;
     color: white;
     background-color: #4aaaa5;
+    width: 250px
 }
-.talking {
+.cooking {
     display: inline-block;
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 200px;
     text-align: center;
-    right: 500px;
+    left: 340px;
 }
 
-.Widget {
+.travelingImage {
     display: inline-block;
     position: absolute;
     top: 400px;
     left: 260px;
+    width: 250px;
 } 
    
 
-#widget {
+#traveling {
     position: relative;
     line-height: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -230,10 +234,11 @@ h2 {
     color: white;
     background-color: #4aaaa5;
     bottom: 80px;
+    width: 250px;
 
 }
 
-#rock {
+#music {
     position: relative;
     line-height: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -241,26 +246,27 @@ h2 {
     color: white;
     background-color: #4aaaa5;
     bottom: 80px;
+    width: 250px;
 
 }
 
-.Rock {
+.music {
     display: inline-block;
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 200px;
     text-align: center;
     top: 400px;
     left: 30px;
 }
-.Widget{
+.traveling {
     display: inline-block;
     position: absolute;
     width: 200px;
     height: 200px;
     text-align: center;
     top: 400px;
-    left: 260px;
+    left: 340px;
 }
 
 #Portfolio {
@@ -288,7 +294,7 @@ h2 {
     background-color: #4aaaa5;
     color: white;
     display: inline-block;
-    width: 200px;
+    width: 250px;
 }
 
 
@@ -381,7 +387,7 @@ label {
 }
 
 .picture {
-    width: 200px;
+    width: 250px;
     height: 200px;
 }
 
