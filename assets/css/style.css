@@ -309,6 +309,7 @@ h2 {
     width: 960px;
     top: 100px;
     padding: 0;
+   
 }
 
 #contactForm {
@@ -320,7 +321,7 @@ h2 {
  margin-block-end: 0.67em;
 }
 
-.MainForm {
+.mainForm {
     background-color: white;
     padding: 30px;
     margin: 0 0 300px 0;
@@ -409,23 +410,98 @@ input {
 }
 
 @media (max-width: 980px) {
-  div {
+
+    #logo {
+        position: relative;
+        left: 20px;
+       
+    }
+
+    .sideHeader {
+        position: relative;
+        left: 330px;
+     
+      
+    }
+
    
-  }
+     body {
+         margin: 0px;
+        
+     }
+   
+   
+  
 }
 
 @media (max-width: 768px) {
-    div {
+
+   
+    
+    #logo {
+        position: relative;
+        left: 20px;
+       
+    }
+
+    .sideHeader {
+        position: relative;
+        left: 130px;
+     
+      
+    }
+
+   
+     body {
+         margin: 0px;
+        
+     }
+
+     .BigContainer {
+         width: 660px;
+         margin-bottom: 120px;
+         margin: 20px 20px 100px 20px;
+     }
+
+     .formContainer {
+        width: 700px;
+        margin-top: 20px;
+       
+      
+     }
+
+     .mainForm {
+         margin: 0px;
+        
+       
+     }
+     .mainSection { 
+         width: 700px;
+         margin-bottom: 20px;
+
+
+     }
+
+    
      
     }
-  }
+  
 
 
   @media (max-width: 640px) {
    .formContainer {
-       width: 480px;
+       width: 370px;
+       top: 20px;
      
    }
+
+   .mainForm {
+       margin-top: 0px;
+       margin-bottom: 100px;
+   }
+
+   body {
+       margin: 0px; }
 
    
 .header {
@@ -461,15 +537,19 @@ text-align: center;
     position: static;
     width: 100%;
     margin: 0;
+  
 }
 
 /* about me */
 .mainSection {
     width: 382px;
   margin-top: 0x;
+  top: 40px;
+  
 }
 
 .mainContainer {
+    margin-bottom: 100px;
     
 }
 
@@ -483,14 +563,17 @@ text-align: center;
 /* portfolio */
 
 .BigContainer {
-    width: 382px;
+    width: 400px;
     height: 1300px;
-    padding-left: 20px;
+    top: 20px;
+    margin-bottom: 100px;
+   
+
 }
 
 .sports {
     position: relative;
-    
+    margin-left: 15px;
     
     
 }
@@ -499,6 +582,7 @@ text-align: center;
     position: relative;
     top: -295px;
     left: 0px;
+    margin-left: 15px;
     
 }
 
@@ -506,18 +590,45 @@ text-align: center;
     position: relative;
     left: 0px;
     top : -590px;
+    margin-left: 15px;
 }
 .traveling {
     position: relative;
     left: 0px;
     top: -120px;
+    margin-left: 15px;
 }
 
 .research {
     position: relative;
     left: 0px;
     bottom: -605px;
+    margin-left: 15px;
 }
 
   }
     
+  /* extra media query */
+
+  /* @media (min-width: 768px) {
+
+   
+    
+    #logo {
+        position: relative;
+        left: 90px;
+       
+    }
+
+    .sideHeader {
+        position: relative;
+        left: 460px;
+     
+      
+    }
+
+   
+     body {
+         margin: 0px;
+        
+     } */
